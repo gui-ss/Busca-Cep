@@ -13,4 +13,6 @@
     <string name="title_home"><b>CEP </b>PARA <b>RUA</b></string>
     <string name="subtitle_home">Encontre as informações do seu CEP <br></br> e nunca mais se perca</string>
     <string name="search_text_home"><b>BUSQUE</b> AQUI</string>
+    <string name="title_historic">HISTÓRICO</string>
+    <string name="search_text">Busque aqui</string>
 </resources>
