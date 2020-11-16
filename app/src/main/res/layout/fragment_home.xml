@@ -143,9 +143,4 @@
         android:onClick="telaHistorico"
         />
 
-    
-
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

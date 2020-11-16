@@ -35,7 +35,9 @@
         app:layout_constraintTop_toTopOf="@id/view"
         app:layout_constraintBottom_toBottomOf="@id/view"
         android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp" />
+        android:layout_marginStart="10dp"
+        android:onClick="voltarTelaHome"
+        />
 
 
     <TextView
@@ -126,7 +128,6 @@
         app:layout_constraintTop_toTopOf="@id/bottom_view"
         android:layout_marginLeft="80dp"
         android:layout_marginStart="80dp"
-        android:onClick="voltarTelaHome"
         />
 
     <ImageButton

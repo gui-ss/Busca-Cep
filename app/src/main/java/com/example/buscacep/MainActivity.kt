@@ -6,6 +6,7 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import androidx.fragment.app.FragmentContainerView
 import androidx.navigation.findNavController
 
@@ -21,15 +22,11 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-    fun telaHome(){
-        navigation.findNavController().navigate(R.id.action_splash_to_home2)
-    }
-
-    fun telaHistorico(){
+    fun telaHistorico(view : View){
         navigation.findNavController().navigate(R.id.action_home2_to_historic)
     }
 
-    fun voltarTelaHome(){
+    fun voltarTelaHome(view : View){
         navigation.findNavController().navigate(R.id.action_historic_to_home2)
     }
 
