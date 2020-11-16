@@ -15,4 +15,5 @@
     <string name="search_text_home"><b>BUSQUE</b> AQUI</string>
     <string name="title_historic">HISTÓRICO</string>
     <string name="search_text">Busque aqui</string>
+    <string name="cep_example">EX: 08525-040</string>
 </resources>
