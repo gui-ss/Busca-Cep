@@ -32,7 +32,7 @@
         app:layout_constraintStart_toStartOf="@id/view"
         app:layout_constraintTop_toTopOf="@id/view"
         app:layout_constraintBottom_toBottomOf="@id/view"
-        android:textSize="32dp"
+        android:textSize="32sp"
         android:textColor="#000000"
         android:layout_marginBottom="16dp"
         android:fontFamily="@font/roboto_light"
@@ -62,7 +62,7 @@
         app:layout_constraintTop_toBottomOf="@+id/view"
         android:layout_marginTop="36dp"
         android:layout_marginRight="8dp"
-        />
+        android:layout_marginEnd="8dp" />
 
     <TextView
         android:id="@+id/title_search"
@@ -82,24 +82,64 @@
     <EditText
         android:inputType="text"
         android:layout_width="230dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:id="@+id/search_input"
         app:layout_constraintStart_toStartOf="@id/circle"
         app:layout_constraintTop_toBottomOf="@id/title_search"
-        />
+        android:hint="EX: 08525-040"
+        android:textAlignment="center"
+        android:background="@drawable/input_style"
+        android:gravity="center_vertical"
+        tools:ignore="RtlCompat" />
 
-    <Button
+    <ImageButton
         android:id="@+id/btn_search"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="@+id/search_input"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/search_input"
         android:layout_marginRight="28dp"
         android:background="@drawable/style_btn"
-        />
+        android:src="@drawable/ic_search"
+        android:padding="6dp"
+        android:layout_marginEnd="28dp" />
 
 
+
+    <View
+        android:id="@+id/bottom_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#19d3da" />
+
+
+    <ImageButton
+        android:id="@+id/btn_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_home"
+        app:layout_constraintBottom_toBottomOf="@id/bottom_view"
+        android:background="@drawable/style_btn"
+        app:layout_constraintStart_toStartOf="@id/bottom_view"
+        app:layout_constraintTop_toTopOf="@id/bottom_view"
+        android:layout_marginLeft="80dp"
+        android:layout_marginStart="80dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_contact"
+        android:src="@drawable/ic_contactform"
+        android:background="@drawable/style_btn"
+        app:layout_constraintBottom_toBottomOf="@id/bottom_view"
+        app:layout_constraintTop_toTopOf="@id/bottom_view"
+        app:layout_constraintEnd_toEndOf="@id/bottom_view"
+        android:layout_marginRight="80dp"
+        android:layout_marginEnd="80dp" />
 
     
 
