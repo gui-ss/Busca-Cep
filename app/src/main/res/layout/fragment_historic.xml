@@ -128,6 +128,7 @@
         app:layout_constraintTop_toTopOf="@id/bottom_view"
         android:layout_marginLeft="80dp"
         android:layout_marginStart="80dp"
+        android:onClick="voltarTelaHome"
         />
 
     <ImageButton
